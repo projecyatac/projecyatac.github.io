@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://com.com/index.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://com.com/phone/index.html"/>
+  </url>
+  <url>
+    <loc>http://com.com/type-attack.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://com.com/phone/type-attack.html"/>
+  </url>
+  <url>
+    <loc>http://com.com/binary-planting.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://com.com/sql-injection.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://com.com/phone/sql-injection.html"/>
+  </url>
+  <url>
+    <loc>http://com.com/fishing.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://com.com/phone/fishing.html"/>
+  </url>
+  <url>
+    <loc>http://com.com/social.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://com.com/phone/social.html"/>
+  </url>
+  <url>
+    <loc>http://com.com/ddos.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://com.com/phone/ddos.html"/>
+  </url>
+  <url>
+    <loc>http://com.com/smurf.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://com.com/udp-storm.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://com.com/udp-bomb.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://com.com/mail-bombing.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://com.com/sniffing.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://com.com/phone/sniffing.html"/>
+  </url>
+  <url>
+    <loc>http://com.com/ip-hijack.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://com.com/dummy-dns-server.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://com.com/phone/dummy-dns-server.html"/>
+  </url>
+  <url>
+    <loc>http://com.com/ip-spoofing.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://com.com/software-vulnerabilities.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://com.com/phone/software-vulnerabilities.html"/>
+  </url>
+  <url>
+    <loc>http://com.com/virus.html</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://com.com/phone/virus.html"/>
+  </url>
+</urlset>

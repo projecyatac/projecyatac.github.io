@@ -1,0 +1,71 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="com.com" resolutions="1x" timestamp="1549214644125">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="494455931" ref="index"/>
+    <file name="mail-bombing.css" crc="4128701851" ref="mail-bombing"/>
+    <file name="type-attack.css" crc="227671785" ref="type-attack"/>
+    <file name="udp-bomb.css" crc="4071990848" ref="udp-bomb"/>
+    <file name="dummy-dns-server.css" crc="295571315" ref="dummy-dns-server"/>
+    <file name="smurf.css" crc="3904902790" ref="smurf"/>
+    <file name="ddos.css" crc="3957612853" ref="ddos"/>
+    <file name="sniffing.css" crc="87253143" ref="sniffing"/>
+    <file name="fishing.css" crc="80494503" ref="fishing"/>
+    <file name="virus.css" crc="3767302249" ref="virus"/>
+    <file name="sql-injection.css" crc="3940640481" ref="sql-injection"/>
+    <file name="software-vulnerabilities.css" crc="3931204005" ref="software-vulnerabilities"/>
+    <file name="udp-storm.css" crc="3838319324" ref="udp-storm"/>
+    <file name="binary-planting.css" crc="3799730133" ref="binary-planting"/>
+    <file name="ip-spoofing.css" crc="3963956510" ref="ip-spoofing"/>
+    <file name="ip-hijack.css" crc="249990275" ref="ip-hijack"/>
+    <file name="social.css" crc="3969102846" ref="social"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index:phone>type-attack:phone>virus:phone>software-vulnerabilities:phone>dummy-dns-server:phone>sniffing:phone>ddos:phone>social:phone>fishing:phone>sql-injection:type-attack:binary-planting:sql-injection:fishing:social:ddos:smurf:udp-storm:udp-bomb:mail-bombing:sniffing:ip-hijack:dummy-dns-server:ip-spoofing:software-vulnerabilities:virus"/>
+    <file name="museutils.js" crc="340535759" ref="phone>index:index:phone>type-attack:phone>virus:phone>software-vulnerabilities:phone>dummy-dns-server:phone>sniffing:phone>ddos:phone>social:phone>fishing:phone>sql-injection:type-attack:binary-planting:sql-injection:fishing:social:ddos:smurf:udp-storm:udp-bomb:mail-bombing:sniffing:ip-hijack:dummy-dns-server:ip-spoofing:software-vulnerabilities:virus"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:index:phone>type-attack:phone>virus:phone>software-vulnerabilities:phone>dummy-dns-server:phone>sniffing:phone>ddos:phone>social:phone>fishing:phone>sql-injection:type-attack:binary-planting:sql-injection:fishing:social:ddos:smurf:udp-storm:udp-bomb:mail-bombing:sniffing:ip-hijack:dummy-dns-server:ip-spoofing:software-vulnerabilities:virus"/>
+    <file name="museconfig.js" crc="4286661555" ref="phone>index:index:phone>type-attack:phone>virus:phone>software-vulnerabilities:phone>dummy-dns-server:phone>sniffing:phone>ddos:phone>social:phone>fishing:phone>sql-injection:type-attack:binary-planting:sql-injection:fishing:social:ddos:smurf:udp-storm:udp-bomb:mail-bombing:sniffing:ip-hijack:dummy-dns-server:ip-spoofing:software-vulnerabilities:virus"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index:phone>type-attack:phone>virus:phone>software-vulnerabilities:phone>dummy-dns-server:phone>sniffing:phone>ddos:phone>social:phone>fishing:phone>sql-injection:type-attack:binary-planting:sql-injection:fishing:social:ddos:smurf:udp-storm:udp-bomb:mail-bombing:sniffing:ip-hijack:dummy-dns-server:ip-spoofing:software-vulnerabilities:virus"/>
+    <file name="require.js" crc="7928878" ref="phone>index:index:phone>type-attack:phone>virus:phone>software-vulnerabilities:phone>dummy-dns-server:phone>sniffing:phone>ddos:phone>social:phone>fishing:phone>sql-injection:type-attack:binary-planting:sql-injection:fishing:social:ddos:smurf:udp-storm:udp-bomb:mail-bombing:sniffing:ip-hijack:dummy-dns-server:ip-spoofing:software-vulnerabilities:virus"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="349185923" ref="phone>index"/>
+      <file name="dummy-dns-server.css" crc="3817430336" ref="phone>dummy-dns-server"/>
+      <file name="sql-injection.css" crc="3778715549" ref="phone>sql-injection"/>
+      <file name="fishing.css" crc="136269097" ref="phone>fishing"/>
+      <file name="type-attack.css" crc="3992549440" ref="phone>type-attack"/>
+      <file name="ddos.css" crc="4062572158" ref="phone>ddos"/>
+      <file name="sniffing.css" crc="430467559" ref="phone>sniffing"/>
+      <file name="software-vulnerabilities.css" crc="4262110831" ref="phone>software-vulnerabilities"/>
+      <file name="virus.css" crc="3809177971" ref="phone>virus"/>
+      <file name="social.css" crc="41346674" ref="phone>social"/>
+    </folder>
+    <file name="index.html" crc="316917616" seo="true" mt="1549213096655" redirect="true"/>
+    <file name="type-attack.html" crc="449021044" seo="true" mt="1549213880119" redirect="true"/>
+    <file name="virus.html" crc="3981151703" seo="true" mt="1549213914703" redirect="true"/>
+    <file name="software-vulnerabilities.html" crc="4047902855" seo="true" mt="1549213947629" redirect="true"/>
+    <file name="dummy-dns-server.html" crc="4021869894" seo="true" mt="1549213980288" redirect="true"/>
+    <file name="sniffing.html" crc="3882500621" seo="true" mt="1549214030833" redirect="true"/>
+    <file name="ddos.html" crc="3938360342" seo="true" mt="1549214058292" redirect="true"/>
+    <file name="social.html" crc="4141776044" seo="true" mt="1549214110253" redirect="true"/>
+    <file name="fishing.html" crc="468989011" seo="true" mt="1549214169818" redirect="true"/>
+    <file name="sql-injection.html" crc="399560600" seo="true" mt="1549214291478" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="188086005" seo="true" mt="1549212706021" redirect="true"/>
+  <file name="type-attack.html" crc="4076978022" seo="true" mt="1549212687822" redirect="true"/>
+  <file name="binary-planting.html" crc="398119465" seo="true" mt="1549212775094" redirect="true"/>
+  <file name="sql-injection.html" crc="503624332" seo="true" mt="1549214237262" redirect="true"/>
+  <file name="fishing.html" crc="4207178626" seo="true" mt="1549214156962" redirect="true"/>
+  <file name="social.html" crc="22145458" seo="true" mt="1549212688363" redirect="true"/>
+  <file name="ddos.html" crc="274841775" seo="true" mt="1549212688322" redirect="true"/>
+  <file name="smurf.html" crc="3887641613" seo="true" mt="1549212758176" redirect="true"/>
+  <file name="udp-storm.html" crc="179192730" seo="true" mt="1549212756630" redirect="true"/>
+  <file name="udp-bomb.html" crc="4197739031" seo="true" mt="1549212755524" redirect="true"/>
+  <file name="mail-bombing.html" crc="3825210542" seo="true" mt="1549212754251" redirect="true"/>
+  <file name="sniffing.html" crc="4235021889" seo="true" mt="1549212688113" redirect="true"/>
+  <file name="ip-hijack.html" crc="432185953" seo="true" mt="1549212825033" redirect="true"/>
+  <file name="dummy-dns-server.html" crc="4022345783" seo="true" mt="1549212688030" redirect="true"/>
+  <file name="ip-spoofing.html" crc="4275534002" seo="true" mt="1549212797921" redirect="true"/>
+  <file name="software-vulnerabilities.html" crc="4047975183" seo="true" mt="1549212687948" redirect="true"/>
+  <file name="virus.html" crc="387566903" seo="true" mt="1549212687905" redirect="true"/>
+</manifest>
