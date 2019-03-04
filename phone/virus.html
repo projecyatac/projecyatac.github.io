@@ -18,20 +18,26 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>virus</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/virus.css?crc=3809177971" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/virus.css?crc=118481248" id="pagesheet"/>
    </head>
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- group -->
    <a class="anchor_item grpelem" id="virus" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
    <div class="verticalspacer" data-offset-top="63" data-content-above-spacer="63" data-content-below-spacer="71" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="clearfix grpelem" id="u2125-12"><!-- content -->
-    <p id="u2125-2">Вирусы</p>
-    <p>Самая известная простому пользователю проблема. Суть во внедрении вредоносной программы в компьютер пользователя. Последствия могут быть различны и зависят от вида вируса, которым заражён компьютер. Но в целом – от похищения информации до рассылки спама, организации DDoS атак, а так же получения полного контроля над компьютером. Помимо прикрепленного к письму файла, вирусы могут попасть в компьютер через некоторые уязвимости ОС.</p>
-    <p>&nbsp;</p>
-    <p id="u2125-7"><span id="u2125-6">Рекомендации:</span></p>
-    <p id="u2125-9">Пользуйтесь антивирусным программным обеспечением. Не ограничивайтесь только DrWEB или Kaspersky Anti-Virus (потому как они не проверяют реестр), используйте специализированные антивирусы против Malware, например Ad-Aware, SpyBot, XSpy. А так же не открывайте подозрительных вложений и вообще не открывайте программ от неизвестных отправителей. Даже если отправитель Вам знаком, всё равно сначала проверьте антивирусом</p>
-    <p>&nbsp;</p>
+   <div class="clearfix grpelem" id="pu2216"><!-- group -->
+    <div class="browser_width grpelem" id="u2216-bw">
+     <div id="u2216"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix grpelem" id="u2125-12"><!-- content -->
+     <p id="u2125-2">Вирусы</p>
+     <p id="u2125-4">Самая известная простому пользователю проблема. Суть во внедрении вредоносной программы в компьютер пользователя. Последствия могут быть различны и зависят от вида вируса, которым заражён компьютер. Но в целом – от похищения информации до рассылки спама, организации DDoS атак, а так же получения полного контроля над компьютером. Помимо прикрепленного к письму файла, вирусы могут попасть в компьютер через некоторые уязвимости ОС.</p>
+     <p>&nbsp;</p>
+     <p id="u2125-7"><span id="u2125-6">Рекомендации:</span></p>
+     <p id="u2125-9">Пользуйтесь антивирусным программным обеспечением. Не ограничивайтесь только DrWEB или Kaspersky Anti-Virus (потому как они не проверяют реестр), используйте специализированные антивирусы против Malware, например Ad-Aware, SpyBot, XSpy. А так же не открывайте подозрительных вложений и вообще не открывайте программ от неизвестных отправителей. Даже если отправитель Вам знаком, всё равно сначала проверьте антивирусом</p>
+     <p>&nbsp;</p>
+    </div>
+    <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu2199" href="type-attack.html#atack" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedRight"><!-- container box --><div class="clearfix grpelem" id="u2200-4"><!-- content --><p>Назад</p></div></a>
    </div>
   </div>
   <!-- Other scripts -->
@@ -49,6 +55,8 @@ var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","muse
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */

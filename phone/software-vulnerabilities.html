@@ -18,20 +18,26 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Software vulnerabilities</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/software-vulnerabilities.css?crc=4262110831" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/software-vulnerabilities.css?crc=3774014560" id="pagesheet"/>
    </head>
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- group -->
    <a class="anchor_item grpelem" id="soft" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
    <div class="verticalspacer" data-offset-top="177" data-content-above-spacer="177" data-content-below-spacer="71" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="clearfix grpelem" id="u2128-12"><!-- content -->
-    <p id="u2128-2">Software vulnerabilities</p>
-    <p>Software vulnerabilities (Ошибки ПО). Использование ошибок в программном обеспечении. Эффект может быть разный. От получения несущественной информации до получения полного контроля над системой. Атаки через ошибки ПО самые популярные во все времена. Старые ошибки исправляются новыми версиями, но в новых версиях появляются новые ошибки, которые опять могут быть использованы.</p>
-    <p id="u2128-6">Рекомендации</p>
-    <p id="u2128-8">&nbsp;обновите ПО.</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+   <div class="clearfix grpelem" id="pu2276"><!-- group -->
+    <div class="browser_width grpelem" id="u2276-bw">
+     <div id="u2276"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix grpelem" id="u2128-12"><!-- content -->
+     <p id="u2128-2">Software vulnerabilities</p>
+     <p id="u2128-4">Software vulnerabilities (Ошибки ПО). Использование ошибок в программном обеспечении. Эффект может быть разный. От получения несущественной информации до получения полного контроля над системой. Атаки через ошибки ПО самые популярные во все времена. Старые ошибки исправляются новыми версиями, но в новых версиях появляются новые ошибки, которые опять могут быть использованы.</p>
+     <p id="u2128-6">Рекомендации</p>
+     <p id="u2128-8">&nbsp;обновите ПО.</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+    </div>
+    <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu2234" href="type-attack.html#atack" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedRight"><!-- container box --><div class="clearfix grpelem" id="u2235-4"><!-- content --><p>Назад</p></div></a>
    </div>
   </div>
   <!-- Other scripts -->
@@ -49,6 +55,8 @@ var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","muse
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
