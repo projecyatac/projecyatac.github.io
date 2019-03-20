@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="com.com" resolutions="1x" timestamp="1553101387777">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="projecyatac.githb.io" resolutions="1x" timestamp="1553103073895">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="89001764" ref="index"/>
@@ -16,7 +16,7 @@
     <file name="________-________.css" crc="4128701851" ref="почтовая-бомбежка"/>
     <file name="_____.css" crc="3767302249" ref="вирус"/>
     <file name="________-_______.css" crc="87253143" ref="перехват-трафика"/>
-    <file name="____-____.css" crc="227671785" ref="типы-атак"/>
+    <file name="____-____.css" crc="228331898" ref="типы-атак"/>
     <file name="__________-_________.css" crc="3969102846" ref="социальная-инженерия"/>
   </folder>
   <folder name="scripts">
@@ -58,7 +58,7 @@
   <file name="ddos.html" crc="3811429014" seo="true" mt="1552038920249" redirect="true"/>
   <file name="udp-storm.html" crc="210154484" seo="true" mt="1552038920253" redirect="true"/>
   <file name="ip-hijack.html" crc="170463298" seo="true" mt="1552038920233" redirect="true"/>
-  <file name="типы-атак.html" crc="448079782" seo="true" mt="1552039281210" redirect="true"/>
+  <file name="типы-атак.html" crc="181060550" seo="true" mt="1553103019437" redirect="true"/>
   <file name="социальная-инженерия.html" crc="518602827" seo="true" mt="1553101348664" redirect="true"/>
   <file name="атака-широковещательными-пакетами.html" crc="149431141" seo="true" mt="1552039268334" redirect="true"/>
   <file name="некотректные-udp-запросы.html" crc="3835538" seo="true" mt="1552039203409" redirect="true"/>
