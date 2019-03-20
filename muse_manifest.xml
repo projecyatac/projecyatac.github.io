@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="com.com" resolutions="1x" timestamp="1553100305277">
+=======
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="com.com" resolutions="1x" timestamp="1551711524672">
+>>>>>>> parent of 614fd15... sorry one
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="89001764" ref="index"/>
@@ -29,9 +33,21 @@
   </folder>
   <folder name="phone">
     <folder name="css">
+<<<<<<< HEAD
       <file name="sql-injection.css" crc="246053442" ref="phone>sql-injection"/>
       <file name="sniffing.css" crc="95234232" ref="phone>sniffing"/>
       <file name="ddos.css" crc="198984313" ref="phone>ddos"/>
+=======
+      <file name="sql-injection.css" crc="24102904" ref="phone>sql-injection"/>
+      <file name="social.css" crc="4279031917" ref="phone>social"/>
+      <file name="fishing.css" crc="3929083009" ref="phone>fishing"/>
+      <file name="sniffing.css" crc="330107349" ref="phone>sniffing"/>
+      <file name="dummy-dns-server.css" crc="28300209" ref="phone>dummy-dns-server"/>
+      <file name="virus.css" crc="518367524" ref="phone>virus"/>
+      <file name="ddos.css" crc="301091152" ref="phone>ddos"/>
+      <file name="type-attack.css" crc="4293215950" ref="phone>type-attack"/>
+      <file name="software-vulnerabilities.css" crc="4005622308" ref="phone>software-vulnerabilities"/>
+>>>>>>> parent of 614fd15... sorry one
       <file name="index.css" crc="123628926" ref="phone>index"/>
       <file name="_____.css" crc="407316994" ref="phone>вирус"/>
       <file name="______.css" crc="157757312" ref="phone>фишинг"/>
@@ -40,6 +56,7 @@
       <file name="__________-_-___________.css" crc="4015663747" ref="phone>уязвимости-в-приложениях"/>
       <file name="______-dns.css" crc="191211852" ref="phone>помена-dns"/>
     </folder>
+<<<<<<< HEAD
     <file name="index.html" crc="156333074" seo="true" mt="1553100269277" redirect="true"/>
     <file name="sniffing.html" crc="40725036" seo="true" mt="1552039134818" redirect="true"/>
     <file name="ddos.html" crc="4164217416" seo="true" mt="1551711865601" redirect="true"/>
@@ -50,6 +67,18 @@
     <file name="помена-dns.html" crc="355302459" seo="true" mt="1553100209207" redirect="true"/>
     <file name="социальная-инженерия.html" crc="507538985" seo="true" mt="1553100228849" redirect="true"/>
     <file name="фишинг.html" crc="3913107119" seo="true" mt="1553100236861" redirect="true"/>
+=======
+    <file name="index.html" crc="3815100170" seo="true" mt="1551709641261" redirect="true"/>
+    <file name="type-attack.html" crc="3882203925" seo="true" mt="1551711476141" redirect="true"/>
+    <file name="virus.html" crc="451650805" seo="true" mt="1551711484203" redirect="true"/>
+    <file name="software-vulnerabilities.html" crc="4287047830" seo="true" mt="1551711481499" redirect="true"/>
+    <file name="dummy-dns-server.html" crc="4207996066" seo="true" mt="1551711490412" redirect="true"/>
+    <file name="sniffing.html" crc="176705842" seo="true" mt="1551711493631" redirect="true"/>
+    <file name="ddos.html" crc="520863722" seo="true" mt="1551711496250" redirect="true"/>
+    <file name="social.html" crc="384589380" seo="true" mt="1551711498981" redirect="true"/>
+    <file name="fishing.html" crc="4272044216" seo="true" mt="1551711501648" redirect="true"/>
+    <file name="sql-injection.html" crc="519772356" seo="true" mt="1551711504996" redirect="true"/>
+>>>>>>> parent of 614fd15... sorry one
   </folder>
   <file name="index.html" crc="3773274358" seo="true" mt="1552038920258" redirect="true"/>
   <file name="binary-planting.html" crc="4161506265" seo="true" mt="1552038920245" redirect="true"/>
