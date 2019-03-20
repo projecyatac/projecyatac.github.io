@@ -11,39 +11,39 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "_____.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "smurf.css"], "outOfDate":[]};
 </script>
   
-  <title>Вирус</title>
+  <title>smurf</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/_____.css?crc=3767302249" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/smurf.css?crc=3904902790" id="pagesheet"/>
    </head>
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pvirus"><!-- column -->
-    <a class="anchor_item colelem" id="virus" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
-    <div class="clearfix colelem" id="u1613-4"><!-- content -->
-     <p>Вирусы</p>
+   <div class="clearfix grpelem" id="psmurf"><!-- column -->
+    <a class="anchor_item colelem" id="smurf" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
+    <div class="clearfix colelem" id="u1556-4"><!-- content -->
+     <p>Атака широковещательными ICMP ECHO пакетами (Smurf Attack)</p>
     </div>
    </div>
-   <a class="nonblock nontext Button rounded-corners clearfix" id="buttonu1475" href="%d1%82%d0%b8%d0%bf%d1%8b-%d0%b0%d1%82%d0%b0%d0%ba.html#tipatak" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u1476-4"><!-- content --><p>Назад</p></div></a>
-   <div class="verticalspacer" data-offset-top="250" data-content-above-spacer="249" data-content-below-spacer="636" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="clearfix grpelem" id="pu1439"><!-- group -->
-    <div class="browser_width grpelem" id="u1439-bw">
-     <div id="u1439"><!-- simple frame --></div>
+   <a class="nonblock nontext Button rounded-corners clearfix" id="buttonu1529" href="atac.html#tipatak" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u1530-4"><!-- content --><p>Назад</p></div></a>
+   <div class="verticalspacer" data-offset-top="298" data-content-above-spacer="298" data-content-below-spacer="676" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="clearfix grpelem" id="pu1409"><!-- group -->
+    <div class="browser_width grpelem" id="u1409-bw">
+     <div id="u1409"><!-- simple frame --></div>
     </div>
-    <div class="browser_width grpelem" id="u1442-bw">
-     <div id="u1442"><!-- simple frame --></div>
+    <div class="browser_width grpelem" id="u1469-bw">
+     <div id="u1469"><!-- simple frame --></div>
     </div>
-    <div class="clearfix grpelem" id="u1610-12"><!-- content -->
-     <p id="u1610-2">Вирусы</p>
-     <p>Самая известная простому пользователю проблема. Суть во внедрении вредоносной программы в компьютер пользователя. Последствия могут быть различны и зависят от вида вируса, которым заражён компьютер. Но в целом – от похищения информации до рассылки спама, организации DDoS атак, а так же получения полного контроля над компьютером. Помимо прикрепленного к письму файла, вирусы могут попасть в компьютер через некоторые уязвимости ОС.</p>
-     <p>&nbsp;</p>
-     <p id="u1610-7"><span id="u1610-6">Рекомендации:</span></p>
-     <p id="u1610-9">Пользуйтесь антивирусным программным обеспечением. Не ограничивайтесь только DrWEB или Kaspersky Anti-Virus (потому как они не проверяют реестр), используйте специализированные антивирусы против Malware, например Ad-Aware, SpyBot, XSpy. А так же не открывайте подозрительных вложений и вообще не открывайте программ от неизвестных отправителей. Даже если отправитель Вам знаком, всё равно сначала проверьте антивирусом</p>
-     <p>&nbsp;</p>
+    <div class="clearfix grpelem" id="u1559-14"><!-- content -->
+     <p id="u1559-2">Smurf</p>
+     <p>Smurf (атака, направленная на ошибки реализации TCP-IP протокола). Сейчас этот вид атаки считается экзотикой, однако раньше, когда TCP-IP протокол был достаточно новым, в нём содержалось некоторое количество ошибок, которые позволяли, например, подменять IP адреса. Однако, этот тип атаки применяется до сих пор. Некоторые специалисты выделяют TCP Smurf, UDP Smurf, ICMP Smurf. Конечно, такое деление основано на типе пакетов.</p>
+     <p id="u1559-6">Реализация</p>
+     <p>Реализуется такая атака путем отправки ICMP ECHO запросов с подмененным адресом источника (вместо которого указывается адрес сервера-жертвы) на широковещательный адрес маршрутизатора крупной сети. Задумка состоит в том, что ICMP ECHO запрос, пришедший на широковещательный адрес, будет разослан всем устройствам сети, каждый из которых в свою очередь ответит на этот запрос. Таким образом, образуется поток ICMP ECHO ответов, направляемых серверу-жертве, который способен частично или полностью исчерпать канальные и вычислительные ресурсы целевого сервера. В настоящее время атаки этого вида происходят редко, т.к. заводские настройки большинства современных маршрутизаторов не предусматривают обязательную рассылку каждому устройству сети пакетов, пришедших на широковещательный адрес. Однако, в сетях все еще встречаются устаревшие модели сетевого оборудования, а также с неактуальной версией ПО или некорректной настройкой политик обработки пакетов, которые могут быть использованы злоумышленниками для реализации таких атак.</p>
+     <p id="u1559-10">Защита</p>
+     <p>Среди рекомендуемых способов защиты можно назвать тщательную настройку правил обработки пакетов, пришедших на широковещательный адрес сети, на маршрутизаторе.</p>
     </div>
    </div>
   </div>
