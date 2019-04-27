@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="projecyatac.githb.io" resolutions="1x" timestamp="1553103457624">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="projecyatac.githb.io" resolutions="1x" timestamp="1556356326906">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="89001764" ref="index"/>
@@ -32,15 +32,15 @@
       <file name="sql-injection.css" crc="246053442" ref="phone>sql-injection"/>
       <file name="sniffing.css" crc="95234232" ref="phone>sniffing"/>
       <file name="ddos.css" crc="198984313" ref="phone>ddos"/>
-      <file name="index.css" crc="123628926" ref="phone>index"/>
+      <file name="index.css" crc="4244571875" ref="phone>index"/>
       <file name="virus.css" crc="407316994" ref="phone>virus"/>
       <file name="fishing.css" crc="157757312" ref="phone>fishing"/>
       <file name="software-vibranien.css" crc="4015663747" ref="phone>software-vibranien"/>
       <file name="tipi-atac.css" crc="4293215950" ref="phone>tipi-atac"/>
       <file name="dds.css" crc="191211852" ref="phone>dds"/>
-      <file name="social-enginering.css" crc="3945253589" ref="phone>social-enginering"/>
+      <file name="social-enginering.css" crc="173759687" ref="phone>social-enginering"/>
     </folder>
-    <file name="index.html" crc="196950753" seo="true" mt="1553101309676" redirect="true"/>
+    <file name="index.html" crc="3962827738" seo="true" mt="1556356247537" redirect="true"/>
     <file name="sniffing.html" crc="4004554932" seo="true" mt="1553103377155" redirect="true"/>
     <file name="ddos.html" crc="4164217416" seo="true" mt="1551711865601" redirect="true"/>
     <file name="sql-injection.html" crc="475142338" seo="true" mt="1551711820580" redirect="true"/>
@@ -48,7 +48,7 @@
     <file name="virus.html" crc="4186681135" seo="true" mt="1553103323439" redirect="true"/>
     <file name="software-vibranien.html" crc="142437372" seo="true" mt="1553101331373" redirect="true"/>
     <file name="dds.html" crc="4134627579" seo="true" mt="1553103363904" redirect="true"/>
-    <file name="social-enginering.html" crc="11877651" seo="true" mt="1553101348664" redirect="true"/>
+    <file name="social-enginering.html" crc="152354884" seo="true" mt="1556356289350" redirect="true"/>
     <file name="fishing.html" crc="419784849" seo="true" mt="1553101354602" redirect="true"/>
   </folder>
   <file name="index.html" crc="4280283057" seo="true" mt="1553103318475" redirect="true"/>
