@@ -11,28 +11,44 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "sql-________.css"], "outOfDate":[]};
 </script>
   
-  <link rel="canonical" href="http://projecyatac.github.io/index.html"/>
-  <title>Тыпы атак</title>
+  <link rel="canonical" href="http://projecyatac.github.io/sql-%d0%b8%d0%bd%d1%8c%d0%b5%d0%ba%d1%86%d0%b8%d1%8f.html"/>
+  <title>SQL иньекция</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4244571875" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/sql-________.css?crc=246053442" id="pagesheet"/>
    </head>
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="patac"><!-- column -->
-    <a class="anchor_item colelem" id="atac" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
-    <div class="clearfix colelem" id="u2013-4"><!-- content -->
-     <p>Атаки</p>
+   <a class="anchor_item grpelem" id="sql" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
+   <div class="verticalspacer" data-offset-top="98" data-content-above-spacer="98" data-content-below-spacer="559" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="clearfix grpelem" id="pu2294"><!-- group -->
+    <div class="browser_width grpelem" id="u2294-bw">
+     <div id="u2294"><!-- simple frame --></div>
     </div>
-    <a class="nonblock nontext Button rounded-corners clearfix colelem" id="buttonu2016" href="%d1%82%d0%b8%d0%bf%d1%8b-%d0%b0%d1%82%d0%b0%d0%ba.html#atack" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u2017-4"><!-- content --><p>Типы атак</p></div></a>
-   </div>
-   <div class="verticalspacer" data-offset-top="349" data-content-above-spacer="348" data-content-below-spacer="71" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="browser_width grpelem" id="u2220-bw">
-    <div id="u2220"><!-- simple frame --></div>
+    <div class="clearfix grpelem" id="u2146-35"><!-- content -->
+     <p id="u2146-2">SQL injection</p>
+     <p id="u2146-3">&nbsp;</p>
+     <p id="u2146-5">Описание</p>
+     <p id="u2146-6">&nbsp;</p>
+     <p id="u2146-8">Инъекции SQL - атака состоит из вставки или «инъекции» запрос SQL через входные данные от клиента к приложению. Успешный SQL-инъекционный эксплойт может считывать конфиденциальные данные из базы данных, изменять данные базы данных (вставка / обновление / удаление), выполнять операции администрирования базы данных (например, отключение СУБД), восстанавливать содержимое данного файла, присутствующего в файле СУБД система, а в некоторых случаях выдает команды операционной системе. Атаки с использованием SQL-инъекций представляют собой тип атаки с использованием инъекций , в которой команды SQL вводятся во входные данные плоскости данных для выполнения предопределенных команд SQL.</p>
+     <p id="u2146-9">&nbsp;</p>
+     <p id="u2146-11">Ошибки внедрения SQL возникают, когда:</p>
+     <p id="u2146-12">&nbsp;</p>
+     <p id="u2146-14">Данные поступают в программу из ненадежного источника.</p>
+     <p id="u2146-16">Данные, используемые для динамического построения запроса SQL</p>
+     <p id="u2146-17">&nbsp;</p>
+     <p id="u2146-19">Основными последствиями являются:</p>
+     <p id="u2146-20">&nbsp;</p>
+     <p id="u2146-23"><span id="u2146-21">Конфиденциальность</span><span id="u2146-22"> . Поскольку базы данных SQL обычно содержат конфиденциальные данные, потеря конфиденциальности является частой проблемой уязвимостей SQL-инъекций .</span></p>
+     <p id="u2146-26"><span id="u2146-24">Аутентификация </span><span id="u2146-25">. Если для проверки имен пользователей и паролей используются плохие команды SQL, возможно, можно подключиться к системе как другой пользователь, ранее не знавший пароль.</span></p>
+     <p id="u2146-29"><span id="u2146-27">Авторизация</span><span id="u2146-28"> . Если информация об авторизации хранится в базе данных SQL, возможно, можно изменить эту информацию за счет успешного использования уязвимости SQL-инъекции .</span></p>
+     <p id="u2146-32"><span id="u2146-30">Целостность</span><span id="u2146-31"> . Точно так же, как можно прочитать конфиденциальную информацию, можно также внести изменения или даже удалить эту информацию с помощью атаки SQL-инъекцией .</span></p>
+     <p>&nbsp;</p>
+    </div>
    </div>
   </div>
   <!-- Other scripts -->

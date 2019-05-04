@@ -11,39 +11,39 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "udp-storm.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "_____-__________________-icmp-echo-________.css"], "outOfDate":[]};
 </script>
   
-  <title>UDP Storm</title>
+  <title>Атака широковещательными ICMP ECHO пакетами</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/udp-storm.css?crc=3818180924" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/_____-__________________-icmp-echo-________.css?crc=503263809" id="pagesheet"/>
    </head>
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pstorm"><!-- column -->
-    <a class="anchor_item colelem" id="storm" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
-    <div class="clearfix colelem" id="u1565-4"><!-- content -->
-     <p>UDP Storm</p>
+   <div class="clearfix grpelem" id="psmurf"><!-- column -->
+    <a class="anchor_item colelem" id="smurf" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
+    <div class="clearfix colelem" id="u1556-4"><!-- content -->
+     <p>Атака широковещательными ICMP ECHO пакетами (Smurf Attack)</p>
     </div>
    </div>
-   <a class="nonblock nontext Button rounded-corners clearfix" id="buttonu1523" href="%d0%b0%d1%82%d0%b0%d0%ba%d0%b8.html#tipatak" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u1524-4"><!-- content --><p>Назад</p></div></a>
-   <div class="verticalspacer" data-offset-top="228" data-content-above-spacer="228" data-content-below-spacer="564" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="clearfix grpelem" id="pu1412"><!-- group -->
-    <div class="browser_width grpelem" id="u1412-bw">
-     <div id="u1412"><!-- simple frame --></div>
+   <a class="nonblock nontext Button rounded-corners clearfix" id="buttonu1529" href="%d0%b0%d1%82%d0%b0%d0%ba%d0%b8.html#tipatak" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u1530-4"><!-- content --><p>Назад</p></div></a>
+   <div class="verticalspacer" data-offset-top="298" data-content-above-spacer="298" data-content-below-spacer="676" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="clearfix grpelem" id="pu1409"><!-- group -->
+    <div class="browser_width grpelem" id="u1409-bw">
+     <div id="u1409"><!-- simple frame --></div>
     </div>
-    <div class="browser_width grpelem" id="u1466-bw">
-     <div id="u1466"><!-- simple frame --></div>
+    <div class="browser_width grpelem" id="u1469-bw">
+     <div id="u1469"><!-- simple frame --></div>
     </div>
-    <div class="clearfix grpelem" id="u1562-12"><!-- content -->
-     <p id="u1562-2">UDP Storm</p>
-     <p id="u1562-4">UDP шторм – используется в том случае, если на жертве открыто как минимум два UDP порта, каждый из которых отсылает отправителю какой-нибудь ответ. Например, порт 37 с сервером time на запрос отправляет текущую дату и время. Взломщик отправляет UDP пакет на один из портов жертвы, но в качестве отправителя указывает адрес жертвы и второй открытый UDP порт жертвы. Тогда порты начинают бесконечно отвечать друг другу, что снижает производительность. Шторм прекратится, как только один из пакетов пропадёт (например, из-за перегрузки ресурсов).</p>
-     <p>&nbsp;</p>
-     <p id="u1562-7"><span id="u1562-6">Рекомендации:</span></p>
-     <p id="u1562-9">По возможности исключить использование сервисов, которые принимают UDP пакеты, либо отрезать их от внешней сети межсетевым экраном.</p>
-     <p>&nbsp;</p>
+    <div class="clearfix grpelem" id="u1559-14"><!-- content -->
+     <p id="u1559-2">Smurf</p>
+     <p>Smurf (атака, направленная на ошибки реализации TCP-IP протокола). Сейчас этот вид атаки считается экзотикой, однако раньше, когда TCP-IP протокол был достаточно новым, в нём содержалось некоторое количество ошибок, которые позволяли, например, подменять IP адреса. Однако, этот тип атаки применяется до сих пор. Некоторые специалисты выделяют TCP Smurf, UDP Smurf, ICMP Smurf. Конечно, такое деление основано на типе пакетов.</p>
+     <p id="u1559-6">Реализация</p>
+     <p>Реализуется такая атака путем отправки ICMP ECHO запросов с подмененным адресом источника (вместо которого указывается адрес сервера-жертвы) на широковещательный адрес маршрутизатора крупной сети. Задумка состоит в том, что ICMP ECHO запрос, пришедший на широковещательный адрес, будет разослан всем устройствам сети, каждый из которых в свою очередь ответит на этот запрос. Таким образом, образуется поток ICMP ECHO ответов, направляемых серверу-жертве, который способен частично или полностью исчерпать канальные и вычислительные ресурсы целевого сервера. В настоящее время атаки этого вида происходят редко, т.к. заводские настройки большинства современных маршрутизаторов не предусматривают обязательную рассылку каждому устройству сети пакетов, пришедших на широковещательный адрес. Однако, в сетях все еще встречаются устаревшие модели сетевого оборудования, а также с неактуальной версией ПО или некорректной настройкой политик обработки пакетов, которые могут быть использованы злоумышленниками для реализации таких атак.</p>
+     <p id="u1559-10">Защита</p>
+     <p>Среди рекомендуемых способов защиты можно назвать тщательную настройку правил обработки пакетов, пришедших на широковещательный адрес сети, на маршрутизаторе.</p>
     </div>
    </div>
   </div>
